@@ -1,0 +1,219 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Magenta: hsl(300, 69%, 71%);
+}
+.parent {
+    background-color: var(--Violet);
+    height: fit-content;
+    position: relative;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    border-radius: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mobile{
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 9%;
+    width: 35%;
+}
+
+.ill {
+    width: 85%;
+    position: absolute;
+    top: 15%;
+    right: 7.5%;
+}
+h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+    height: 12vh;
+    
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 45vh;
+   
+}
+
+
+a:nth-of-type(2){
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    bottom: 5%;
+    left: 34%;
+    text-decoration: none;
+    color: white;
+}
+a:nth-of-type(3){
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    border: 1px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    bottom: 5%;
+    left: 45%;
+    text-decoration: none;
+    color: white;
+}
+a:nth-of-type(4){
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    border: 1px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    bottom: 5%;
+    left: 56%;
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: white;
+    width: 70%;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--Magenta);
+}
+
+
+@media (min-width:850px) {
+    .a {
+        display: inline-block;
+    position: absolute;
+    top: 25%;
+    right: 1px;
+    width: 50%;
+    }
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.mobile {
+    width: 100%;
+    height: 100%;
+}
+    .ill{
+        width: 48%;
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    }
+    .parent {
+        background-color: var(--Violet);
+        height: fit-content;
+        position: relative;
+        color: white;
+        text-align: center;
+        width: 1000px;
+        height: 600px;
+        border-radius: 10px;
+        
+       
+    }
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        height: 30vh;
+    }
+
+    a:nth-of-type(2) {
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: black;
+        border: 1px solid;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        bottom: -40%;
+        left: 50%;
+        text-decoration: none;
+        color: white;
+    }
+    a:nth-of-type(3) {
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: black;
+        border: 1px solid;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        bottom: -40%;
+        left: 61%;
+        text-decoration: none;
+        color: white;
+    }
+    a:nth-of-type(4) {
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: black;
+        border: 1px solid;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        bottom: -40%;
+        left: 72%;
+        text-decoration: none;
+        color: white;
+    }
+
+}
